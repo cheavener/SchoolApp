@@ -11,6 +11,10 @@
 		DE7E555027DA40AB00BA5583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E554F27DA40AB00BA5583 /* ContentView.swift */; };
 		DE7E555227DA40AB00BA5583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7E555127DA40AB00BA5583 /* Assets.xcassets */; };
 		DE7E555527DA40AB00BA5583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7E555427DA40AB00BA5583 /* Preview Assets.xcassets */; };
+		DE7E555E27DA5A0E00BA5583 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E555D27DA5A0E00BA5583 /* Student.swift */; };
+		DE7E556027DA60E800BA5583 /* Parents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E555F27DA60E800BA5583 /* Parents.swift */; };
+		DE7E556227DA60F800BA5583 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E556127DA60F800BA5583 /* Teacher.swift */; };
+		DE7E556427DA610500BA5583 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E556327DA610500BA5583 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DE7E554F27DA40AB00BA5583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE7E555127DA40AB00BA5583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7E555427DA40AB00BA5583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE7E555D27DA5A0E00BA5583 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		DE7E555F27DA60E800BA5583 /* Parents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parents.swift; sourceTree = "<group>"; };
+		DE7E556127DA60F800BA5583 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		DE7E556327DA610500BA5583 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				DE7E554D27DA40AB00BA5583 /* SchoolAppApp.swift */,
 				DE7E554F27DA40AB00BA5583 /* ContentView.swift */,
+				DE7E555F27DA60E800BA5583 /* Parents.swift */,
+				DE7E556127DA60F800BA5583 /* Teacher.swift */,
+				DE7E556327DA610500BA5583 /* News.swift */,
+				DE7E555D27DA5A0E00BA5583 /* Student.swift */,
 				DE7E555127DA40AB00BA5583 /* Assets.xcassets */,
 				DE7E555327DA40AB00BA5583 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7E556427DA610500BA5583 /* News.swift in Sources */,
 				DE7E555027DA40AB00BA5583 /* ContentView.swift in Sources */,
+				DE7E556227DA60F800BA5583 /* Teacher.swift in Sources */,
+				DE7E556027DA60E800BA5583 /* Parents.swift in Sources */,
+				DE7E555E27DA5A0E00BA5583 /* Student.swift in Sources */,
 				DE7E554E27DA40AB00BA5583 /* SchoolAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
