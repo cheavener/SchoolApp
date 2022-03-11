@@ -19,6 +19,9 @@ struct ContentView: View {
                         .font(.title)
                         .navigationBarHidden(true)
                         .foregroundColor(Color("BaldwynBlue"))
+                    Divider()
+                        .frame(height: 3)
+                        .background(Color("BaldwynBlue"))
             
                     
                     Image("B")
@@ -43,7 +46,7 @@ struct ContentView: View {
                             // .offset(y: -150)
                             //.offset(x: -40)
                             //.foregroundColor(.red)
-                                .padding(EdgeInsets(top: 0, leading: 0, bottom: 220, trailing: 20))
+                                .padding(EdgeInsets(top: 0, leading: 0, bottom: 205, trailing: 20))
                                 .foregroundColor(Color("BaldwynBlue"))
                         } //Close Nav Link
                         Spacer()

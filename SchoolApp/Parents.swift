@@ -10,35 +10,47 @@ import SwiftUI
 struct Parents: View {
     var body: some View {
         
-        
-        ZStack {
-            VStack { //VStack 1
-                Text("Baldwyn School District")
-                    .padding()
-                    .font(.title)
-                    .navigationBarHidden(true)
-                .foregroundColor(Color("BaldwynBlue"))
+        NavigationView() {
+            
+            ScrollView() {
                 
-                Image(systemName: "line.diagonal")
                 
-                Image("B")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 420, height: 600)
-                    .opacity(0.4)
                 
-                Image("Bearcat")
-                    .scaledToFit()
+                ZStack {
+                    VStack { //VStack 1
+                        Text("Baldwyn School District")
+                            .padding()
+                            .font(.title)
+                            .navigationBarHidden(true)
+                            .foregroundColor(Color("BaldwynBlue"))
+                        Divider()
+                            .frame(height: 4)
+                            .background(Color("BaldwynBlue"))
+                         Image("B")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 420, height: 600)
+                            .opacity(0.4)
+                        Image("Bearcat")
+                            .scaledToFit()
+                        
+                        
+                        
+                    }//Close VStack 1
+                    
+                    VStack{//VStack2
+                        
+                        
+                    }//Close VStack 2
+                    
+                }// Close ZStack
                 
-            }//Close VStack 1
-        }// Close ZStack
-        
-        
-        
-        
-        
-        
-        
+                
+                
+                
+            }// Close Scroll View
+            
+        } //Navigation View
     }//Close Body
 }//Close Struct
 
